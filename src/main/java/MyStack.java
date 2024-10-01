@@ -1,18 +1,31 @@
 
 public class MyStack<T>
 {
+	public class Node {
+		
+		public T val;
+		private Node next;
+		
+		public Node(T val, Node next) {
+			this.val = val;
+			this.next = next;
+			
+		}
+}
+	
 
 	public MyStack()
 	{
 
-	}
+}
 
 	/**
 	 * Pushes an element to the stack
 	 * @param val
 	 */
-	public void push(T val)
-	{
+	public void push(T val) {
+		
+	
 
 	}
 
